@@ -1,0 +1,115 @@
+ERROR BROWSER
+
+C:\Users\jason>pip install browser
+Collecting browser
+  Using cached browser-0.0.1.tar.gz (2.7 kB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: selenium==3.141.0 in c:\users\jason\appdata\local\programs\python\python310\lib\site-packages (from browser) (3.141.0)
+Collecting lxml==4.5.0
+  Using cached lxml-4.5.0.tar.gz (4.5 MB)
+  Preparing metadata (setup.py) ... done
+Collecting cssselect==1.0.3
+  Using cached cssselect-1.0.3-py2.py3-none-any.whl (16 kB)
+Requirement already satisfied: PyVirtualDisplay==0.2.4 in c:\users\jason\appdata\local\programs\python\python310\lib\site-packages (from browser) (0.2.4)
+Requirement already satisfied: EasyProcess in c:\users\jason\appdata\local\programs\python\python310\lib\site-packages (from PyVirtualDisplay==0.2.4->browser) (0.3)
+Requirement already satisfied: urllib3 in c:\users\jason\appdata\local\programs\python\python310\lib\site-packages (from selenium==3.141.0->browser) (1.26.7)
+Using legacy 'setup.py install' for browser, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for lxml, since package 'wheel' is not installed.
+Installing collected packages: lxml, cssselect, browser
+  Attempting uninstall: lxml
+    Found existing installation: lxml 4.6.4
+    Uninstalling lxml-4.6.4:
+      Successfully uninstalled lxml-4.6.4
+    Running setup.py install for lxml ... error
+    ERROR: Command errored out with exit status 1:
+     command: 'C:\Users\jason\AppData\Local\Programs\Python\Python310\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\jason\\AppData\\Local\\Temp\\pip-install-gxfu_ox5\\lxml_49707dd766b341cc8eec8eabc6e447d2\\setup.py'"'"'; __file__='"'"'C:\\Users\\jason\\AppData\\Local\\Temp\\pip-install-gxfu_ox5\\lxml_49707dd766b341cc8eec8eabc6e447d2\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\jason\AppData\Local\Temp\pip-record-2mezxyhp\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\jason\AppData\Local\Programs\Python\Python310\Include\lxml'
+         cwd: C:\Users\jason\AppData\Local\Temp\pip-install-gxfu_ox5\lxml_49707dd766b341cc8eec8eabc6e447d2\
+    Complete output (77 lines):
+    Building lxml version 4.5.0.
+    Building without Cython.
+    ERROR: b'"xslt-config" \xad\xa5 \xef\xa2\xab\xef\xa5\xe2\xe1\xef \xa2\xad\xe3\xe2\xe0\xa5\xad\xad\xa5\xa9 \xa8\xab\xa8 \xa2\xad\xa5\xe8\xad\xa5\xa9\r\n\xaa\xae\xac\xa0\xad\xa4\xae\xa9, \xa8\xe1\xaf\xae\xab\xad\xef\xa5\xac\xae\xa9 \xaf\xe0\xae\xa3\xe0\xa0\xac\xac\xae\xa9 \xa8\xab\xa8 \xaf\xa0\xaa\xa5\xe2\xad\xeb\xac \xe4\xa0\xa9\xab\xae\xac.\r\n'
+    ** make sure the development packages of libxml2 and libxslt are installed **
+
+    Using build configuration of libxslt
+    running install
+    running build
+    running build_py
+    creating build
+    creating build\lib.win-amd64-3.10
+    creating build\lib.win-amd64-3.10\lxml
+    copying src\lxml\builder.py -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\cssselect.py -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\doctestcompare.py -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\ElementInclude.py -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\pyclasslookup.py -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\sax.py -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\usedoctest.py -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\_elementpath.py -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\__init__.py -> build\lib.win-amd64-3.10\lxml
+    creating build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\__init__.py -> build\lib.win-amd64-3.10\lxml\includes
+    creating build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\builder.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\clean.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\defs.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\diff.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\ElementSoup.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\formfill.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\html5parser.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\soupparser.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\usedoctest.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\_diffcommand.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\_html5builder.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\_setmixin.py -> build\lib.win-amd64-3.10\lxml\html
+    copying src\lxml\html\__init__.py -> build\lib.win-amd64-3.10\lxml\html
+    creating build\lib.win-amd64-3.10\lxml\isoschematron
+    copying src\lxml\isoschematron\__init__.py -> build\lib.win-amd64-3.10\lxml\isoschematron
+    copying src\lxml\etree.h -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\etree_api.h -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\lxml.etree.h -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\lxml.etree_api.h -> build\lib.win-amd64-3.10\lxml
+    copying src\lxml\includes\c14n.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\config.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\dtdvalid.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\etreepublic.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\htmlparser.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\relaxng.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\schematron.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\tree.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\uri.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\xinclude.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\xmlerror.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\xmlparser.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\xmlschema.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\xpath.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\xslt.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\__init__.pxd -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\etree_defs.h -> build\lib.win-amd64-3.10\lxml\includes
+    copying src\lxml\includes\lxml-version.h -> build\lib.win-amd64-3.10\lxml\includes
+    creating build\lib.win-amd64-3.10\lxml\isoschematron\resources
+    creating build\lib.win-amd64-3.10\lxml\isoschematron\resources\rng
+    copying src\lxml\isoschematron\resources\rng\iso-schematron.rng -> build\lib.win-amd64-3.10\lxml\isoschematron\resources\rng
+    creating build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl
+    copying src\lxml\isoschematron\resources\xsl\RNG2Schtrn.xsl -> build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl
+    copying src\lxml\isoschematron\resources\xsl\XSD2Schtrn.xsl -> build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl
+    creating build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl\iso-schematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_abstract_expand.xsl -> build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl\iso-schematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_dsdl_include.xsl -> build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl\iso-schematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_schematron_message.xsl -> build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl\iso-schematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_schematron_skeleton_for_xslt1.xsl -> build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl\iso-schematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\iso_svrl_for_xslt1.xsl -> build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl\iso-schematron-xslt1
+    copying src\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\readme.txt -> build\lib.win-amd64-3.10\lxml\isoschematron\resources\xsl\iso-schematron-xslt1
+    running build_ext
+    building 'lxml.etree' extension
+    error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+    ----------------------------------------
+  Rolling back uninstall of lxml
+  Moving to c:\users\jason\appdata\local\programs\python\python310\lib\site-packages\lxml-4.6.4.dist-info\
+   from C:\Users\jason\AppData\Local\Programs\Python\Python310\Lib\site-packages\~xml-4.6.4.dist-info
+  Moving to c:\users\jason\appdata\local\programs\python\python310\lib\site-packages\lxml\
+   from C:\Users\jason\AppData\Local\Programs\Python\Python310\Lib\site-packages\~xml
+ERROR: Command errored out with exit status 1: 'C:\Users\jason\AppData\Local\Programs\Python\Python310\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\jason\\AppData\\Local\\Temp\\pip-install-gxfu_ox5\\lxml_49707dd766b341cc8eec8eabc6e447d2\\setup.py'"'"'; __file__='"'"'C:\\Users\\jason\\AppData\\Local\\Temp\\pip-install-gxfu_ox5\\lxml_49707dd766b341cc8eec8eabc6e447d2\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\jason\AppData\Local\Temp\pip-record-2mezxyhp\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\jason\AppData\Local\Programs\Python\Python310\Include\lxml' Check the logs for full command output.
+
+
+
+
